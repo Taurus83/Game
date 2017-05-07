@@ -1,0 +1,29 @@
+{
+  "name": "kodilla-game",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "kodilla-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taurus83/Game.git"
+  },
+  "keywords": [
+    "stone",
+    "paper",
+    "scissors"
+  ],
+  "author": "Piotr Rucinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Taurus83/Game/issues"
+  },
+  "homepage": "https://github.com/Taurus83/Game#readme"
+}
