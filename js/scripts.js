@@ -127,16 +127,16 @@ function winnerGame() {
 		
 		playerPointsElem.innerHTML = player.score;
     	setGamePoints();
-    	alert('Wygrał gracz: ' + player.name);
-    	console.log('Wygrał gracz: ' + player.name);
+    	return alert('Wygrał gracz: ' + player.name);
+    	return console.log('Wygrał gracz: ' + player.name);
     }	break;
     if (computer.score == 10) {
 		gameState = 'ended';
 
 		computerPointsElem.innerHTML = computer.score;
     	setGamePoints();
-    	alert('Wygrał komputer');
-    	console.log('Wygrał komputer');
+    	return alert('Wygrał komputer');
+    	return console.log('Wygrał komputer');
     	break;
     }
 }
